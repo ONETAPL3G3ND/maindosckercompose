@@ -1,1 +1,6 @@
-// i
+version: "3.8"
+
+services:
+  discordmanager:
+    image: sergiirudniev/discordmanager_arm
+    restart: always
